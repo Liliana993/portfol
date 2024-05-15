@@ -12,7 +12,7 @@ function crearNav(containerNav){
                             <li><a href="#sobremi" onclick="seleccionar(this) ">SOBRE MI</a></li>
                             <li><a href="#servicios" onclick="seleccionar(this) ">SERVICIOS</a>
                             </li>
-                            <li><a href="#contacto" onclick="seleccionar(this) ">CONTACTO<a></li>
+                            <li><a href="./contacto.html" onclick="seleccionar(this) ">CONTACTO<a></li>
                         </ul>
                     </nav>
                     <!--ICONOS DEL MENÚ RESPONSIVE-->
