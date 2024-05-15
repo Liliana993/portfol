@@ -1,0 +1,164 @@
+/*fuente a utilizar*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+#Inicio{
+    background: linear-gradient(rgba(19, 18, 18, 0.5), rgba(31, 29, 29, 0.5)), url("../assets/img/inicio.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+    
+
+#Inicio .contenido header{
+background-color: rgba(0, 0, 0, .8);
+position: fixed;
+width: 100%;
+z-index: 100;
+top: 0;
+}
+
+#Inicio .contenido header .contenido-header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#Inicio .contenido header .contenido-header h1{
+    text-align: center;
+    color:rgb(135, 74, 191);
+}
+
+#Inicio .contenido header .contenido-header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#Inicio .contenido header .contenido-header nav ul li a{
+    text-decoration: none;
+    color: azure;
+    margin: 0 12px;
+    font-weight: 400;
+    transition: .5s;
+}
+
+#Inicio .contenido header .contenido-header nav ul a:hover{
+    color: rgb(196, 165, 225);
+}
+
+#Inicio .contenido header .contenido-header .redes a{
+    text-decoration: none;
+    color: beige;
+    display: inline-block;
+    margin-left: 10px;
+    transition: .5s;
+}
+
+#Inicio .contenido header .contenido-header .redes a:hover{
+    color: rgb(189, 146, 228);
+}
+#Inicio .contenido header .contenido-header .seleccionado{
+    color: #b96ed0;
+}
+
+#Inicio .contenido .presentacion{
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    columns: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#Inicio .contenido .presentacion .bienvenida{
+    font-size: 22px;
+    color: beige;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+#Inicio .contenido .presentacion h2{
+font-size: 50px;
+margin-bottom: 25px;
+text-align: center;
+color: azure;
+}
+
+#Inicio .contenido .presentacion h2 span{
+    font-size: 25px;
+    color: rgb(79, 5, 148);
+}
+
+#Inicio .contenido .presentacion .descripcion{
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 20px;
+    text-align: center;
+    color: azure;
+}
+
+.presentacion a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin: 25px;
+    padding: 20px 25px;
+    border: 2px solid beige;
+    border-radius: 50px;
+    color: azure;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+.presentacion a:hover{
+    background-color: blueviolet;
+}
+
+#icono-nav{
+    color: beige;
+    display: none;
+}
+
+@media screen and (max-width: 800px){
+    .redes{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    nav.responsive{
+        display:block;
+        background-color: rgba(0, 0, 0, .8);
+        width: 100%;
+        position: absolute;
+        top: 48px;
+        left: 0;
+        padding: 10px 0;
+    }
+    nav.responsive ul{
+        display: block !important;
+        text-align: center;
+    }
+    nav.responsive ul li {
+        margin: 5px 0;
+    }
+    #icono-nav{
+        display: block;
+    }
+    #inicio .contenido .presentacion h2{
+    font-size: 40px;
+    }
+}

@@ -1,0 +1,97 @@
+/*seccion sobre mi*/
+#sobremi{
+    max-width: 1100px;
+    margin: auto;
+    padding: 100px 15px;
+    color: #383863;
+    display: flex;
+}
+
+#sobremi .contenedor-foto{
+    max-width: 350px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+#sobremi .contenedor-foto img{
+    padding: 10px;
+    width: 100%;
+    border-radius: 50px;
+    object-fit: cover;
+    background-color: rgb(215, 174, 243);
+}
+
+#sobremi .sobremi{
+    margin: 0 40px;
+}
+
+#sobremi .sobremi .titulo-seccion{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-color: #e9a1eb;
+    text-decoration-thickness: 5px;
+}
+
+#sobremi .sobremi h2{
+    font-size: 34px;
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+
+#sobremi .sobremi h2 span{
+    color: blueviolet;
+}
+
+#sobremi .sobremi p{
+    font-size: 14px;
+    line-height: 25px;
+    color: rgb(191, 224, 224);
+    margin-bottom: 12px;
+}
+
+
+.sobremi a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 25px;
+    padding: 20px 25px;
+    border: 2px solid beige;
+    border-radius: 50px;
+    color: azure;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+.sobremi a:hover{
+    background-color: blueviolet;
+}
+
+/*SECCION RESPONSIVE*/
+@media screen and (max-width: 800px){
+    #sobremi{
+        padding: 50px 0;
+        display: flex;
+        flex-direction: column;
+    }
+#sobremi .contenido-foto{
+    max-width: 200px;
+    margin: auto;
+}
+#sobremi .contenido-foto img{
+    padding: 8px;
+    margin: 0 auto;
+    align-items: center;
+}
+#sobremi .sobremi .titulo-seccion{
+    margin-top: 5px;
+    text-align: center;
+}
+#sobremi .sobremi h2{
+    font-size: 25px;
+    text-align: center;
+}
+}

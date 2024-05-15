@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    background-color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    color:rgb(135, 74, 191);
+}
+
+.main__servicios{
+    background-color: #000;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.title_mis_works{
+    text-align: center;
+    color: #fff;
+    text-decoration: underline #e9a1eb;;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.description_mis_works{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.contenido-container{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+@media(min-width: 769px){
+    .contenido-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+    }
+}
+
+.card{
+    width: 370px;
+    border: solid 1px rgb(255, 149, 253);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    flex-direction: column;
+    background-color: #1b071c;
+    margin: 15px;
+    border-radius: 25px;
+}
+
+.imagen-work{
+    width: 80%;
+    height: 158px;
+    padding: 10px;
+    object-fit: cover;
+    align-items: center;
+}
+
+.contenedor-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo-del-work{
+    font-family: "Poppins";
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+
+.descripcion-del-work{
+    font-family: "Poppins";
+    margin: 12px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}

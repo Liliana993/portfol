@@ -1,0 +1,33 @@
+/*FOOTER*/
+footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer .redes{
+    margin-bottom: 20px;
+}
+
+footer .redes a{
+    text-decoration: none;
+    color: beige;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 1rem;
+    transition: .5s;
+}
+
+footer .redes a:hover{
+    color: rgb(189, 146, 228);
+}
+
+footer .arriba a:hover{
+    color: rgb(189, 146, 228);
+}
