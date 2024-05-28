@@ -8,10 +8,10 @@ function crearSection(container){
         <div class="sobremi">
             <p class="titulo-seccion">Sobre Mi</p>
             <h2>Hola, soy <span>Liliana Escobar</span></h2>
-            <p>Puedo decirte que siempre me gusto todo lo relacionado con el mundo digital. Hace meses comence a estudiar de manera autodidacta y actualmente me encuentro cursando programación en Alura.
+            <p>Puedo decirte que siempre me gusto todo lo relacionado con el mundo digital. Hace meses comence a estudiar de manera autodidacta y actualmente me encuentro cursando Software developer en Apx.
                 <br> Busco aprender constantemente sobre esta profesión. Me encanta desafiarme con nuevos retos que me permitan crecer como desarrolladora. </p>
                 
-                <a href="portfolio.html">Linkedin <i class="fa-brands fa-linkedin"></i></a>
+                <a href="in/liliana-escobar-a9714a22a">Linkedin <i class="fa-brands fa-linkedin"></i></a>
         </div>
     </section>
     `;
